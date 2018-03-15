@@ -56,6 +56,34 @@ nav > ul {
     display: none; /*esconde itens*/
 }
 
+
+@media (min-width: 768px) {
+    .link-menu {
+        display: none;
+    }
+
+    nav > ul {
+        display: flex;
+        list-style: none;
+        margin-right: 50px;
+                
+    }
+
+    nav a {
+        color: white;
+    }
+
+    nav > ul > li {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+
+    }
+
+
+}
+
+
 /* ////////// HEADER ////////// */
 
 header {
@@ -98,6 +126,22 @@ header p {
     padding: 100px;
 }
 
+.header-perfilsingle {
+    background-image: url(../img/bg-banner-claro.png);
+    background-position: center;
+    height: 150px;
+    background-size: cover;
+}
+
+.header-perfilsingle p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 65px;
+}
 /*  ////////// BODY ////////// */
 
 body {
@@ -285,8 +329,9 @@ div.galeria2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 80%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .homenageadas h3 {
@@ -303,6 +348,22 @@ div.galeria2 {
 .perfis-homenageadas img {
     width: 90px;
 }
+
+/* ////////// INDEX.nomesingle SECTION perfilsingle ////////// */
+
+.perfilsingle h3 {
+    color: #63458a;
+    text-align: center;
+}
+
+.paragrafos-perfilsingle {
+    color: #63458a;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
 /* ////////// FOOTER ////////// */
 
 footer {
