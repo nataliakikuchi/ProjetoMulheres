@@ -1,0 +1,347 @@
+/* ////////// GERAIS ////////// */
+
+body {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a.btn {
+    color: white;
+    background-color: #b288c0;
+    padding: 2% 8%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+/*  ////////// NAV ////////// */
+
+nav{
+    background-color: #63458a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 200%;
+}
+
+.link-menu {
+    margin-right: 30px;
+}
+nav > ul {
+    display: none; /*esconde itens*/
+}
+
+/* ////////// HEADER ////////// */
+
+header {
+    background-image: url(../img/bg-banner-claro.png);
+    background-position: center;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    font-size: 0.8em; 
+    
+    /*0.8em - em é uma unidade de medida responsiva que herda a medida do pai. Nesse caso, 80% de 16px declarados no body*/
+    text-align: center;
+}
+
+.texto-header {
+    margin: 0 auto;
+    padding: 10% 0;
+    width: 70%;
+}
+
+header p {
+    margin: 10% 0;
+}
+
+.header-sobre {
+    background-image: url(../img/bg-banner-claro.png);
+    background-position: center;
+    height: 150px;
+    background-size: cover;
+   
+}
+
+.header-sobre p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 100px;
+}
+
+/*  ////////// BODY ////////// */
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+/* ////////// MAIN ////////// */
+
+
+
+/* ////////// SECTION APRESENTACAO ////////// */
+
+.apresentacao {
+    background-color: #7e5a9b;
+    width: 90%;
+    padding: 5%;
+}
+
+.apresentacao img {
+    width: 35%;
+   
+}
+
+.apresentacao p {
+    color: white;
+    font-size: 0.7em; 
+    
+}
+
+.apresentacao div {
+    text-align: center;
+    width: 100%;
+
+    
+}
+/* ////////// SECTION MULHERES ////////// */
+
+
+.mulheres > div {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+div.galeria2 {
+    display: none;
+}
+
+.mulheres h2 {
+    color: #9a48d0;
+    
+}
+
+.galeria1 > div {
+    max-width: 110px;
+    margin-right: 20px;
+}
+
+.mulheres img {
+   width: 100px;
+}
+
+
+.mulheres {
+    text-align: center;
+}
+
+/* ////////// SECTION EQUIPE REPROGRAMA ////////// */
+
+.equipe-reprograma {
+    background-color: #63458a;
+}
+
+.equipe-reprograma h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.equipe-reprograma {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0.3%;
+}
+
+.equipe-reprograma img {
+    width: 90px;
+}
+
+.btn-equipe {
+    color: white;
+    background-color: #b288c0;
+    padding: 2% 8%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px 30px 20px 30px;
+
+}
+
+/* ////////// INDEX.SOBRE SECTION COMO SURGIU ////////// */
+
+.como-surgiu {
+    width: 90%;
+    text-align: center;
+  
+}
+
+.como-surgiu h2 {
+    color: #63458a;
+   
+}
+
+.como-surgiu p {
+    color: #63458a;
+    font-size: 14px;
+}
+
+.relevancia {
+    width: 90%;
+    text-align: center;
+}
+
+.relevancia h3 {
+    color: #63458a;
+    text-align: center;
+}
+
+.relevancia p {
+    color: #63458a;
+    font-size: 14px;
+}
+
+.relevancia-numeros {
+    text-align: center; 
+}
+
+
+.dado-numero {
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dado-texto {
+    color: #63458a;
+}
+
+
+/* ////////// INDEX.SOBRE SECTION CONHECA-EQUIPE ////////// */
+
+.conheca-equipe {
+    background-color: #9a48d0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conheca-equipe h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nossa-equipe {
+    width: 90%;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.nossa-equipe img {
+    width: 90px;
+    text-align: center;
+    
+
+}
+
+/* ////////// INDEX.PERFIS SECTION HOMENAGEADAS ////////// */
+
+.homenageadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+}
+
+.homenageadas h3 {
+    color: #63458a;
+    text-align: center;
+}
+
+.perfis-homenageadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.perfis-homenageadas img {
+    width: 90px;
+}
+/* ////////// FOOTER ////////// */
+
+footer {
+    background-color: rgb(63, 63, 63);
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+footer ul li {
+    list-style-type: none;
+    line-height: 150%;
+    
+}
+
+
+footer a {
+    color: white;
+}
+
+.logo-footer img {
+    width: 200px;
+}
+
+.logo-fb img {
+    width: 20px;
+}
+
+.logo-footer p {
+    color: white;
+    font-size: 14px;
+}
+
+.final-footer {
+    background-color: rgb(14, 14, 14);
+}
+
+.final-footer p {
+    color: white;
+    font-size: 10px;
+    padding: 1%;
+}
